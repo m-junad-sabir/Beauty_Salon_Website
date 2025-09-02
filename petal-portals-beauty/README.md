@@ -1,24 +1,29 @@
-# Welcome to your Lovable project
+# 💇‍♀️ Beauty Salon Portfolio Website
+
+A modern, responsive **business portfolio landing page** for a Beauty Salon, built with:  
+- ⚡ [Vite](https://vitejs.dev/)  
+- ⚛️ [React](https://react.dev/) (with TypeScript)  
+- 🎨 [Tailwind CSS](https://tailwindcss.com/)  
+- 🧩 [shadcn/ui](https://ui.shadcn.com/)  
+
+## ✨ Features
+- Responsive & mobile-friendly design 📱  
+- Modern UI components with **shadcn/ui**  
+- Styled using **Tailwind CSS**  
+- Fast builds & HMR with **Vite**  
+- Easy to deploy on multiple platforms 🌍  
 
 ## Project info
-
-**URL**: https://lovable.dev/projects/fb0136fb-7246-4158-8731-c5ccdc739d46
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/fb0136fb-7246-4158-8731-c5ccdc739d46) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Using your own IDE, you can clone this repo and push changes.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+The only requirement is having Node.js & npm installed
 
 Follow these steps:
 
@@ -62,12 +67,73 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/fb0136fb-7246-4158-8731-c5ccdc739d46) and click on Share -> Publish.
+Follow the steps below to deploy it on different platforms:
 
-## Can I connect a custom domain to my Lovable project?
+Before deploying, make sure to build:
 
-Yes, you can!
+```sh
+npm run build
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+This creates the optimized /dist folder.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+**1. Vercel**
+
+- Push repo to GitHub
+- Import into Vercel
+- Build command: npm run build
+- Output directory: dist
+- Done ✅
+
+**2. Netlify**
+
+- Connect repo to Netlify
+- Build command: npm run build
+- Publish directory: dist
+
+**3. Hostinger / cPanel**
+
+- Run npm run build
+- Upload /dist contents to public_html
+- (Optional) Add _redirects file:
+```sh
+/*    /index.html   200
+```
+**4. Cloudflare Pages**
+
+- Connect GitHub repo to Cloudflare Pages
+- Build command: npm run build
+- Output directory: dist
+
+**5. GitHub Pages**
+```sh
+npm install gh-pages --save-dev
+```
+In package.json:
+```sh
+"homepage": "https://<your-username>.github.io/<repo-name>/",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+```
+Deploy:
+```sh
+npm run deploy
+```
+
+## 📸 Screenshots
+
+![Homepage Screenshot](./src/assets/petal-portals-beauty\src\assets\Screenshot 2025-09-02 125910.png)
+---
+![About Section](./src/assets/petal-portals-beauty/src/assets/Screenshot 2025-09-02 125948.png)
+---
+![Booking Section](./src/assets/petal-portals-beauty\src\assets\Screenshot 2025-09-02 130003.png)
+
+## 👤 Author
+
+Muhammad Junaid Sabir
+
+💼 [Linkedin](https://www.linkedin.com/in/muhammad-junaid-sabir-3b9208211/) 
+
+🐙 [GitHub](https://github.com/m-junad-sabir)
