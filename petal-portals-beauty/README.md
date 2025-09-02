@@ -124,11 +124,11 @@ npm run deploy
 
 ## 📸 Screenshots
 
-![Homepage Screenshot](petal-portals-beauty/src/assets/HomeSS.png)
+![Homepage Screenshot](./screenshots/HomeSS.png)
 ---
-![About Section](petal-portals-beauty/src/assets/AboutSS.png)
+![About Section](./screenshots/AboutSS.png)
 ---
-![Booking Section](petal-portals-beauty/src/assets/BookingSS.png)
+![Booking Section](./screenshots/BookingSS.png)
 
 ## 👤 Author
 
