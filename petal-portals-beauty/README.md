@@ -137,3 +137,7 @@ Muhammad Junaid Sabir
 💼 [Linkedin](https://www.linkedin.com/in/muhammad-junaid-sabir-3b9208211/) 
 
 🐙 [GitHub](https://github.com/m-junad-sabir)
+
+## 📜 License
+
+This project is open source and available under the [MIT LICENCE]()
